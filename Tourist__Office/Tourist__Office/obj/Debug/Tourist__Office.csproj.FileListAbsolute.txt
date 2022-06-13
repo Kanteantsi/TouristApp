@@ -1,0 +1,45 @@
+C:\Users\hzcho\source\repos\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.csprojAssemblyReference.cache
+C:\Users\hzcho\source\repos\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.AdministratorInterface.resources
+C:\Users\hzcho\source\repos\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.ClientInterface.resources
+C:\Users\hzcho\source\repos\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.ManagerInterface.resources
+C:\Users\hzcho\source\repos\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.Properties.Resources.resources
+C:\Users\hzcho\source\repos\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.csproj.GenerateResource.cache
+C:\Users\hzcho\source\repos\Tourist__Office\Tourist__Office\bin\Debug\Tourist__Office.exe.config
+C:\Users\hzcho\source\repos\Tourist__Office\Tourist__Office\bin\Debug\Tourist__Office.exe
+C:\Users\hzcho\source\repos\Tourist__Office\Tourist__Office\bin\Debug\Tourist__Office.pdb
+C:\Users\hzcho\source\repos\Tourist__Office\Tourist__Office\bin\Debug\AlphaBlendTextBox.dll
+C:\Users\hzcho\source\repos\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.csproj.CopyComplete
+C:\Users\hzcho\source\repos\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.exe
+C:\Users\hzcho\source\repos\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.pdb
+C:\Users\hzcho\source\repos\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.AuthentificationAndRegistration.resources
+C:\Users\hzcho\source\repos\Tourist__Office\Tourist__Office\bin\Debug\Tourist_office.mdf
+C:\Users\hzcho\source\repos\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.TourForms.resources
+C:\Users\hzcho\source\repos\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.ClientsWorkForm.resources
+C:\Users\hzcho\source\repos\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.TourGroupForm.resources
+C:\Users\hzcho\source\repos\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.WorkWithRequests.resources
+C:\Users\hzcho\source\repos\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.csproj.CoreCompileInputs.cache
+C:\Users\hzcho\source\repos\Tourist__Office\Tourist__Office\bin\Debug\Tourist_office_log.ldf
+C:\Users\hzcho\source\repos\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.HistoryOfOperations.resources
+C:\Users\hzcho\source\repos\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.ClientsGroupList.resources
+E:\Курсач БД\Tourist__Office\Tourist__Office\bin\Debug\Tourist_office.mdf
+E:\Курсач БД\Tourist__Office\Tourist__Office\bin\Debug\Tourist_office_log.ldf
+E:\Курсач БД\Tourist__Office\Tourist__Office\bin\Debug\Tourist__Office.exe.config
+E:\Курсач БД\Tourist__Office\Tourist__Office\bin\Debug\Tourist__Office.exe
+E:\Курсач БД\Tourist__Office\Tourist__Office\bin\Debug\Tourist__Office.pdb
+E:\Курсач БД\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.csprojAssemblyReference.cache
+E:\Курсач БД\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.AdministratorInterface.resources
+E:\Курсач БД\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.ClientInterface.resources
+E:\Курсач БД\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.ClientsGroupList.resources
+E:\Курсач БД\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.ClientsWorkForm.resources
+E:\Курсач БД\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.HistoryOfOperations.resources
+E:\Курсач БД\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.ManagerInterface.resources
+E:\Курсач БД\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.AuthentificationAndRegistration.resources
+E:\Курсач БД\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.Properties.Resources.resources
+E:\Курсач БД\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.TourForms.resources
+E:\Курсач БД\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.TourGroupForm.resources
+E:\Курсач БД\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.WorkWithRequests.resources
+E:\Курсач БД\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.csproj.GenerateResource.cache
+E:\Курсач БД\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.csproj.CoreCompileInputs.cache
+E:\Курсач БД\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.csproj.CopyComplete
+E:\Курсач БД\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.exe
+E:\Курсач БД\Tourist__Office\Tourist__Office\obj\Debug\Tourist__Office.pdb

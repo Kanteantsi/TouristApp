@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0DEEF10B-FE26-4AD8-8A18-495591447583}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Tourist__Office</RootNamespace>
+    <AssemblyName>Tourist__Office</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AlphaBlendTextBox">
+      <HintPath>..\..\..\..\Desktop\AlphaBlendTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdministratorInterface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdministratorInterface.Designer.cs">
+      <DependentUpon>AdministratorInterface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientInterface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientInterface.Designer.cs">
+      <DependentUpon>ClientInterface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientsGroupList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientsGroupList.Designer.cs">
+      <DependentUpon>ClientsGroupList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientsWorkForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientsWorkForm.Designer.cs">
+      <DependentUpon>ClientsWorkForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataBank.cs" />
+    <Compile Include="HistoryOfOperations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistoryOfOperations.Designer.cs">
+      <DependentUpon>HistoryOfOperations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerInterface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerInterface.Designer.cs">
+      <DependentUpon>ManagerInterface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrationAndAuthentification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrationAndAuthentification.Designer.cs">
+      <DependentUpon>RegistrationAndAuthentification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TourForms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TourForms.Designer.cs">
+      <DependentUpon>TourForms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TourGroupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TourGroupForm.Designer.cs">
+      <DependentUpon>TourGroupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Verification.cs" />
+    <Compile Include="WorkWithRequests.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkWithRequests.Designer.cs">
+      <DependentUpon>WorkWithRequests.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdministratorInterface.resx">
+      <DependentUpon>AdministratorInterface.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientInterface.resx">
+      <DependentUpon>ClientInterface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientsGroupList.resx">
+      <DependentUpon>ClientsGroupList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientsWorkForm.resx">
+      <DependentUpon>ClientsWorkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistoryOfOperations.resx">
+      <DependentUpon>HistoryOfOperations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerInterface.resx">
+      <DependentUpon>ManagerInterface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrationAndAuthentification.resx">
+      <DependentUpon>RegistrationAndAuthentification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="TourForms.resx">
+      <DependentUpon>TourForms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TourGroupForm.resx">
+      <DependentUpon>TourGroupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkWithRequests.resx">
+      <DependentUpon>WorkWithRequests.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Tourist_office.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tourist_office_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Tourist_office.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
